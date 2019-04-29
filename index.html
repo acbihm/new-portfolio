@@ -24,8 +24,8 @@
         id="mySidebar">
         <br>
         <div class='bihm-side'>
-            <a href="#" onclick="closeWin()" class="exit w3-hide-large w3-right w3-hover-grey" title="close menu">
-                <span class="exit" onclick="closeWin()">close window [x] &nbsp;&nbsp;&nbsp;</span>
+            <a href="#" onclick="closeWin(event)" class="exit w3-hide-large w3-right w3-hover-grey" title="close menu">
+                <span class="exit" onclick="closeWin(event)">close window [x] &nbsp;&nbsp;&nbsp;</span>
             </a>
             <div class="w3-container hide-on-phone">
                 <img src="assets/images/a.jpg" style="width:60%;" class="w3-round" alt="">
@@ -295,13 +295,13 @@
     <script>
         // Script to open and close sidebar
         function openWin(event) {
-            event.preventDefault();
+            // event.preventDefault();
             document.getElementById("mySidebar").style.display = "block";
             document.getElementById("myOverlay").style.display = "block";
         }
 
         function closeWin(event) {
-            event.preventDefault();
+            // event.preventDefault();
             document.getElementById("mySidebar").style.display = "none";
             document.getElementById("myOverlay").style.display = "none";
         }
