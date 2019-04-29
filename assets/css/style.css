@@ -58,7 +58,7 @@ hr{border:0;border-top:1px solid #eee;margin:20px 0}
 }
 
 body {
-    background-image: url(../images/struckaxiom.png)
+    background-image: url(/../images/struckaxiom.png)
 }
 .white {
     color: white;
@@ -68,7 +68,7 @@ body {
     color: #d9dadd;
 }
 #mySidebar{
-    background-image: url(../images/struckaxiom.png)
+    background-image: url(/../images/struckaxiom.png)
 }
 
 .arrow a{
