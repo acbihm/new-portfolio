@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html>
+<title>Alex Bihm Web Portfolio</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+<style>
+    body,
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+        font-family: "Raleway", sans-serif
+    }
+</style>
+
+<body class="w3-light-grey w3-content" style="max-width:1600px">
+    <nav class="sidebar-style w3-collapse w3-white w3-animate-left side-gray" style="z-index:3;width:300px;"
+        id="mySidebar">
+        <br>
+        <div class='bihm-side'>
+            <a href="#" onclick="close()" class="w3-hide-large w3-right w3-hover-grey" title="close menu">
+                <span class="exit">close window [x] &nbsp;&nbsp;&nbsp;</span>
+            </a>
+            <div class="w3-container hide-on-phone">
+                <img src="assets/images/a.jpg" style="width:60%;" class="w3-round" alt="">
+
+                <h3><b>ALEX BIHM</b></h3>
+                <ul>
+                    <li><b>Developer</b></li>
+                    <li><b>Artist</b></li>
+                    <li><b>Designer</b></li>
+                </ul>
+            </div>
+            <div class="hide-on-phone"><br>
+                <hr>
+            </div>
+            <div class="w3-panel w3-large">
+                <h4>LINKS</h4>
+                <div class="w3-bar-block">
+                    <a href="#portfolio" class=" w3-bar-item w3-button padding"><i
+                            class="fa fa-th-large fa-fw w3-margin-right"></i>DEV PORTFOLIO</a>
+                    <a href="#about" class="w3-bar-item w3-button padding"><i
+                            class="fa fa-user fa-fw w3-margin-right"></i>ABOUT ALEX</a>
+                    <a href="#contact" class=" w3-bar-item w3-button padding"><i
+                            class="fa fa-envelope fa-fw w3-margin-right"></i>CONTACT ME</a>
+                    <a href="#footer" class=" w3-bar-item w3-button w3-padding"><i
+                            class="fa fa-th-large fa-fw w3-margin-right misc-text"></i>MISC. WORK</a>
+                </div>
+            </div>
+        </div>
+        <hr>
+        <div class="w3-panel w3-large bg-black bihm-icons">
+            <div class="icon-group">
+                <h4>SEE MY <span class="text">WORK</span></h4>
+                <a target="_blank" href="https://github.com/acbihm"><img class="icon-size3 iconz" id="GITHUB"
+                        src="assets/images/GitHub-Mark-64px.png" alt=""></a>
+                <a target="_blank" href="https://www.linkedin.com/in/alexander-bihm-3b56a8174/"><img
+                        class="icon-size2 iconz" id="LINKEDIN" src="assets/images/linkedin.png" alt=""></a>
+                <a target="_blank" href="https://codepen.io/acbihm/"><img class="icon-size iconz" id="CODEPEN"
+                        src="assets/images/Button-Black-Large.png" alt=""></a>
+                <a target="_blank" href="https://dribbble.com/acbihm"><img class="icon-size3 iconz" id="DRIBBBLE"
+                        src="assets/images/dribbble-ball-mark.png" alt=""></a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Overlay effect when opening sidebar on small screens -->
+    <div class="w3-overlay w3-hide-large w3-animate-opacity" onclick="w3_close()" style="cursor:pointer"
+        title="close side menu" id="myOverlay">
+    </div>
+
+    <!-- !PAGE CONTENT! -->
+    <div class="w3-main" style="margin-left:300px">
+        <!-- Header -->
+        <header id="portfolio">
+            <a href="#"><img alt="" src="assets/images/a.jpg" style="width:65px;"
+                    class="w3-circle w3-right w3-margin w3-hide-large w3-hover-opacity"></a>
+            <span class="w3-button w3-hide-large w3-xxlarge w3-hover-text-grey" onclick="open()"><i
+                    class="fa fa-bars"></i></span>
+            <div class="w3-container">
+                <h1><b>ALEX BIHM DEV PORTFOLIO</b></h1><br>
+            </div>
+        </header>
+        <br>
+        <!-- First Photo Grid-->
+        <div class="w3-container padding-large me">
+            <h3><b>DEV PORTFOLIO</b></h3><br>
+
+
+
+
+            <div class="w3-row-padding">
+                <div class="w3-third w3-container w3-margin-bottom">
+                    <a href="">
+                        <img src="assets/images/a.jpg" alt="Norway" style="width:100%" class="w3-hover-opacity">
+                        <div class="w3-container w3-white">
+                            <p><b>RPG Game</b></p>
+                            <p><span class="w3-badge w3-light-grey w3-small ">JQuery</span>
+                                <span class="w3-badge w3-light-grey w3-small ">Mongo</span>
+                                <span class="w3-badge w3-light-grey w3-small ">Full Stack</span></p>
+                            <p>test</p>
+                        </div>
+                    </a>
+                </div>
+
+
+
+                <div class="w3-third w3-container w3-margin-bottom">
+                    <a href="">
+                        <img src="assets/images/a.jpg" alt="Norway" style="width:100%" class="w3-hover-opacity">
+                        <div class="w3-container w3-white">
+                            <p><b>Trivia Game</b></p>
+                            <p><span class="w3-badge w3-light-grey w3-small ">JQuery</span>
+                                <span class="w3-badge w3-light-grey w3-small ">Mongo</span>
+                                <span class="w3-badge w3-light-grey w3-small ">React</span></p>
+                            <p>test</p>
+                        </div>
+                    </a>
+                </div>
+
+
+                <div class="w3-third w3-container w3-margin-bottom">
+                    <a href="">
+                        <img src="assets/images/a.jpg" alt="Norway" style="width:100%" class="w3-hover-opacity">
+                        <div class="w3-container w3-white">
+                            <p><b>Lorem Ipsum</b></p>
+                            <p><span class="w3-badge w3-light-grey w3-small ">JQuery</span>
+                                <span class="w3-badge w3-light-grey w3-small ">Mongo</span>
+                                <span class="w3-badge w3-light-grey w3-small ">React</span></p>
+                            <p>test</p>
+                        </div>
+                    </a>
+                </div>
+            </div>
+
+
+            <!-- Second Photo Grid-->
+            <div class="w3-row-padding">
+                <div class="w3-third w3-container w3-margin-bottom">
+                    <a href="">
+
+                        <img src="assets/images/a.jpg" alt="Norway" style="width:100%" class="w3-hover-opacity">
+                        <div class="w3-container w3-white">
+                            <p><b>Lorem Ipsum</b></p>
+                            <p><span class="w3-badge w3-light-grey w3-small ">JQuery</span>
+                                <span class="w3-badge w3-light-grey w3-small ">Mongo</span>
+                                <span class="w3-badge w3-light-grey w3-small ">React</span></p>
+                            <p>test</p>
+                        </div>
+
+                    </a>
+                </div>
+
+                <div class="w3-third w3-container w3-margin-bottom">
+                    <a href="">
+                        <img src="assets/images/a.jpg" alt="Norway" style="width:100%" class="w3-hover-opacity">
+                        <div class="w3-container w3-white">
+                            <p><b>Lorem Ipsum</b></p>
+                            <p><span class="w3-badge w3-light-grey w3-small ">JQuery</span>
+                                <span class="w3-badge w3-light-grey w3-small ">Mongo</span>
+                                <span class="w3-badge w3-light-grey w3-small ">React</span></p>
+                            <p>test</p>
+                        </div>
+
+                    </a>
+                </div>
+
+                <div class="w3-third w3-container">
+                    <a href="">
+                        <img src="assets/images/a.jpg" alt="Norway" style="width:100%" class="w3-hover-opacity">
+                        <div class="w3-container w3-white">
+                            <p><b>Lorem Ipsum</b></p>
+                            <p><span class="w3-badge w3-light-grey w3-small">JQuery</span>
+                                <span class="w3-badge w3-light-grey w3-small">Mongo</span>
+                                <span class="w3-badge w3-light-grey w3-small">React</span></p>
+                            <p>test</p>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+
+
+        <!-- Pagination -->
+        <div class="w3-center">
+            <div class="w3-bar">
+                <a href="#" class="w3-bar-item w3-button w3-hover-black">«</a>
+                <a href="#" class="w3-bar-item w3-button w3-hover-black">»</a>
+            </div>
+        </div>
+
+        <br>
+        <div class="padding-large me">
+            <h3><b>ABOUT ALEX</b></h3>
+            <div class="w3-row-padding padding-16" id="about">
+                <div class="w3-col m6">
+                    <img src="assets/images/a.jpg" alt="Me" style="width:100%">
+                </div>
+            </div>
+            <div class="w3-container" style="margin-bottom:32px">
+                <hr>
+                <h4>BIO</h4>
+                <p>Woooooords words words words words words eords</p>
+                <hr>
+                <h4>SKILLS</h4>
+                <div>
+                    <p>srenfwdms efudsjal efdsna evfdsa</p>
+                </div>
+            </div>
+        </div>
+        <br>
+        <!-- Contact Section -->
+        <div class="w3-container padding-large me">
+            <h3 id="contact"><b>CONTACT ME</b></h3>
+            <div class="padding-large">
+                <div class="w3-row-padding w3-center padding-24" style="margin:0 -16px">
+                    <div class="w3-third w3-dark-grey">
+                        <p><i class="fa fa-envelope w3-xxlarge w3-text-light-grey"></i></p>
+                        <p>acbihm@gmail.com</p>
+                    </div>
+                    <div class="w3-third w3-teal">
+                        <p><i class="fa fa-map-marker w3-xxlarge w3-text-light-grey"></i></p>
+                        <p>Arlington, TX</p>
+                    </div>
+                    <div class="w3-third w3-dark-grey">
+                        <p><i class="fa fa-phone w3-xxlarge w3-text-light-grey"></i></p>
+                        <p>817-269-0371</p>
+                    </div>
+                </div>
+                <hr class="w3-opacity">
+                <form action="/action_page.php" target="_blank">
+                    <div class="w3-section">
+                        <!-- <label>Name</label> -->
+                        <input class="w3-input w3-border" type="text" name="Name" required placeholder="Name">
+                    </div>
+                    <div class="w3-section">
+                        <!-- <label>Email</label> -->
+                        <input class="w3-input w3-border" type="text" name="Email" required placeholder="Email">
+                    </div>
+                    <div class="w3-section">
+                        <!-- <label>Message</label> -->
+                        <input class="w3-input w3-border" type="text" name="Message" required placeholder="Message">
+                    </div>
+                    <button type="submit" class="w3-button w3-black w3-margin-bottom"><i
+                            class="fa fa-paper-plane w3-margin-right"></i>Send Message</button>
+                </form>
+            </div>
+        </div>
+
+
+        <br>
+        <!-- Footer -->
+        <footer class="w3-container padding-xx w3-grey">
+            <div class="w3-row-padding white">
+                <div class="w3-third misc-style">
+                    <h3>MISC. WORKS</h3>
+                    <div class="padding padd">
+                        <p>Check out other things I am interested in. words wordsworw wdsnjkx ens fndc fsdk </p>
+                    </div>
+                </div>
+                <div>
+                    <div class="w3-third">
+                        <h5>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;BLOG POSTS</h5>
+
+                        <p class="padd">
+                            test test test test test test
+                        </p>
+                    </div>
+                    <div class="w3-third white">
+                        <h5>MY ART</h5>
+                        <div class="padding">
+                            <p>
+                                <span class="w3-tag w3-black w3-margin-bottom">Travel</span> <span
+                                    class="w3-tag w3-grey w3-small w3-margin-bottom">New York</span> <span
+                                    class="w3-tag w3-grey w3-small w3-margin-bottom">London</span>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </div>
+
+
+
+
+
+
+    <script>
+        // Script to open and close sidebar
+        function w3_open() {
+            document.getElementById("mySidebar").style.display = "block";
+            document.getElementById("myOverlay").style.display = "block";
+        }
+
+        function w3_close() {
+            document.getElementById("mySidebar").style.display = "none";
+            document.getElementById("myOverlay").style.display = "none";
+        }
+
+        $('.iconz').mouseover(function () {
+            $('.text').html(`<span style='color:blue';>${this.id}</span>`).css("visibility", "visible");
+        });
+
+        $('.iconz').mouseout(function () {
+            $('.text').html(`<span style='color:grey';>WORK</span`).css("visibility", "visible");
+        });
+
+    </script>
+
+</body>
+
+</html>
