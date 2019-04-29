@@ -294,12 +294,14 @@
 
     <script>
         // Script to open and close sidebar
-        function openWin() {
+        function openWin(event) {
+            event.preventDefault();
             document.getElementById("mySidebar").style.display = "block";
             document.getElementById("myOverlay").style.display = "block";
         }
 
-        function closeWin() {
+        function closeWin(event) {
+            event.preventDefault();
             document.getElementById("mySidebar").style.display = "none";
             document.getElementById("myOverlay").style.display = "none";
         }
