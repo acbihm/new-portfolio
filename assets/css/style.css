@@ -30,71 +30,14 @@ h1,h2,h3,h4,h5,h6{font-family:"Segoe UI",Arial,sans-serif;font-weight:400;margin
 hr{border:0;border-top:1px solid #eee;margin:20px 0}
 
 
+
+
+/* *********************** */
 .icon-size{height: 40px; width: 40px; margin-right: 11px;margin-left: 11px;}
 .icon-size2{height: 35px; width: 35px; margin-right: 11px;margin-left: 11px;}
 .icon-size3{height: 38px; width: 38px; margin-right: 11px;margin-left: 11px;}
 
 
-
-
-
-
-/* ==================================== */
-
-
-
-
-body {
-    width: 100%;
-    height: 100%;
-  }
-  
-  .slideout-menu {
-    position: fixed;
-    top: 0;
-    bottom: 0;
-    width: 256px;
-    min-height: 100vh;
-    overflow-y: scroll;
-    -webkit-overflow-scrolling: touch;
-    z-index: 0;
-    display: none;
-  }
-  
-  .slideout-menu-left {
-    left: 0;
-  }
-  
-  .slideout-menu-right {
-    right: 0;
-  }
-  
-  .slideout-panel {
-    position: relative;
-    z-index: 1;
-    will-change: transform;
-    background-color: #FFF; /* A background-color is required */
-    min-height: 100vh;
-  }
-  
-  .slideout-open,
-  .slideout-open body,
-  .slideout-open .slideout-panel {
-    overflow: hidden;
-  }
-  
-  .slideout-open .slideout-menu {
-    display: block;
-  }
-
-
-
-  /* ============================= */
-
-
-
-
-  
 .centered-hx {
     margin: 0 auto;
 }
@@ -106,14 +49,33 @@ body {
   footer{
     border-top: charcoal;
     border-top-style: solid;
-  border-top-width: 1px;
+    border-top-width: 1px;
+    border-left: charcoal;
+    border-left-style: solid;
+    border-left-width: 1px;
+    opacity: 0.4;
+    margin-left: 5px;
   }
 
+
+  .portfolio, .about, .contact{
+    border-top: gray;
+    border-top-style: solid;
+    border-top-width: 1px;
+    border-left: gray;
+    border-left-style: solid;
+    border-left-width: 1px;
+  
+  
+  }
   .bihm-icons {
     height: 70px;
     /* background-color: lightgray; */
   }
 
+  /* #smallTitleElem{
+      overflow: hidden;
+  } */
 .misc-text {
     font-size: .45em; color: gray; opacity: 50%;
 }
@@ -121,10 +83,13 @@ body {
 .me {
     background-color: lightgray;
     /* background-image: url(../images/funky-lines.png); */
+    margin-left: 5px;
+    
 }
 
 body {
-    background-image: url(../images/struckaxiom.png)
+    background-image: url(../images/struckaxiom.png);
+    background-attachment: fixed;
 }
 .white {
     color: white;
@@ -137,8 +102,8 @@ body {
     
     background-image: url(../images/struckaxiom.png);
     border-right: charcoal;
-    border-right-style: double;
-  border-right-width: 3px;
+    border-right-style: solid;
+  border-right-width: 1px;
 }
 
 .arrow a{
@@ -165,6 +130,37 @@ hr{
      a:link{
          text-decoration: none;
      }
+
+     .misc-style {
+        border-style: solid;
+        border-top: #00ffff;
+        border-bottom: #00ffff;
+        border-left: #00ffff;
+        border-width: 1px;
+        /* padding-right: -20px; */
+        /* margin-left: -20px; */
+    
+    
+        
+    }
+    
+    .padd{
+        margin-left: 15px;
+        padding-left:15px;
+    }
+    
+    body,
+    h6 {
+        font-family: "Raleway", sans-serif
+    }
+    
+    h1, h2, h3, h4 {
+        font-family: 'Rambla', sans-serif;
+    }
+
+    /* *********************** */
+
+
 
 /* .bg-black{background-color: black; overflow: visible;} */
 .w3-image{max-width:100%;height:auto}img{vertical-align:middle}a{color:inherit}
@@ -288,9 +284,9 @@ hr{
 .padding-32{padding-top:32px!important;padding-bottom:32px!important}.padding-48{padding-top:48px!important;padding-bottom:48px!important}
 
 
-
+/* ******* */
 .padding-xx{padding-top:12px!important;padding-bottom:12px!important}.padding-48{padding-top:48px!important;padding-bottom:48px!important}
-
+/* ********* */
 
 
 .padding-64{padding-top:64px!important;padding-bottom:64px!important}
@@ -384,29 +380,3 @@ hr{
 .w3-border-pale-red,.w3-hover-border-pale-red:hover{border-color:#ffe7e7!important}.w3-border-pale-green,.w3-hover-border-pale-green:hover{border-color:#e7ffe7!important}
 .w3-border-pale-yellow,.w3-hover-border-pale-yellow:hover{border-color:#ffffcc!important}.w3-border-pale-blue,.w3-hover-border-pale-blue:hover{border-color:#e7ffff!important}
 
-.misc-style {
-    border-style: solid;
-    border-top: #00ffff;
-    border-bottom: #00ffff;
-    border-left: #00ffff;
-    border-width: 1px;
-    /* padding-right: -20px; */
-    /* margin-left: -20px; */
-
-
-    
-}
-
-.padd{
-    margin-left: 15px;
-    padding-left:15px;
-}
-
-body,
-h6 {
-    font-family: "Raleway", sans-serif
-}
-
-h1, h2, h3, h4 {
-    font-family: 'Rambla', sans-serif;
-}
