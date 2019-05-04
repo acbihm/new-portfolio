@@ -8,10 +8,16 @@
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <link href="https://fonts.googleapis.com/css?family=Rambla" rel="stylesheet">
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+<!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/slideout/1.0.1/slideout.min.js"></script> -->
+<link rel="stylesheet" href="assets/css/touch-sideswipe.css">
+
+<script src="assets/js/touch-sideswipe.js"></script>
+
+
 
 <body class="w3-light-grey w3-content" style="max-width:1600px">
-    <nav class="sidebar-style w3-collapse w3-white w3-animate-left side-gray" style="z-index:3;width:300px;"
-        id="mySidebar">
+    <nav class="sidebar-style w3-collapse w3-white w3-animate-left side-gray touch-side-swipe"
+        style="z-index:3;width:300px;" id="mySidebar touchSideSwipe">
         <br>
         <div class='bihm-side'>
             <a href="#" onclick="closeWin(event)" class="exit w3-hide-large w3-right w3-hover-grey" title="close menu">
@@ -68,7 +74,7 @@
 
     <!-- !PAGE CONTENT! -->
 
-    <div class="w3-main" style="margin-left:300px">
+    <div class="w3-main" style="margin-left:300px" id="panel">
         <!-- Header -->
         <header id="portfolio">
             <a href="#"><img alt="" src="assets/images/a.jpg" style="width:65px;"
@@ -291,7 +297,13 @@
         $('.iconz').mouseout(function () {
             $('.text').html(`<span style='color:grey';>WORK</span`).css("visibility", "visible");
         });
+
     </script>
+
+
+    <!-- <script src="dist/slideout.min.js"></script> -->
+
+
 
 </body>
 
