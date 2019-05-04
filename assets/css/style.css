@@ -42,6 +42,11 @@ hr{border:0;border-top:1px solid #eee;margin:20px 0}
     
   }
 
+  footer{
+    border-top: charcoal;
+    border-top-style: solid;
+  border-top-width: 1px;
+  }
 
   .bihm-icons {
     height: 70px;
@@ -49,7 +54,7 @@ hr{border:0;border-top:1px solid #eee;margin:20px 0}
   }
 
 .misc-text {
-    font-size: .55em; color: gray; opacity: 50%;
+    font-size: .45em; color: gray; opacity: 50%;
 }
 
 .me {
@@ -68,7 +73,11 @@ body {
     color: #d9dadd;
 }
 #mySidebar{
-    background-image: url(../images/struckaxiom.png)
+    
+    background-image: url(../images/struckaxiom.png);
+    border-right: charcoal;
+    border-right-style: double;
+  border-right-width: 3px;
 }
 
 .arrow a{
@@ -76,7 +85,7 @@ body {
 }
 hr{
     color: black;
-    border-color: gray;
+    border-color: black;
 }
 #icon-group span {
     position:relative;
