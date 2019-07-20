@@ -95,6 +95,12 @@ hr{border:0;border-top:1px solid #eee;margin:20px 0}
     opacity: 0;
 }
 
+.left-col {
+    float: left;
+}
+.right-col {
+    float: right;
+}
 body {
     background-image: url(../images/struckaxiom.png);
     background-attachment: fixed;
